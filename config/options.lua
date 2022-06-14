@@ -38,6 +38,14 @@ local options = {
   sidescrolloff = 8,
   guifont = "monospace:h17",               -- the font used in graphical neovim applications
   relativenumber = true,                   -- line counting from the current line number
+  
+  -- Folding
+  foldmethod = "indent",
+  foldcolumn = "auto",
+  -- nofoldenable = 1,
+  foldlevel = 99,
+  -- foldtext = TODO: add custom folding method
+
   -- nvim cmp related (autocomplete)
   completeopt="menu,menuone,noselect"
 }
